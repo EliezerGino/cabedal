@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham';
+}
+main{
+    padding: 0px 5% 0px 5%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* HEADER */
+header{
+    width: 100vw;
+    height: 77px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    color: #1406B4;
+}
+.logo{
+    font-family: Gotham;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    letter-spacing: 10.9px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding: 0 20px 0 40px;
+    font-weight: 700;
+
+}
+
+input{
+    font-family: 'Gotham Book';
+    outline: none;
+    width: 386px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.2);    
+    border: none;
+    box-sizing: border-box;
+    padding: 0 20px 0 20px;
+    font-weight: 400;
+    
+
+}
+
+button{
+    width: 386px;
+    height: 70px;
+    background-color: #2313E2;  
+    border: none;
+    outline: n;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .2s ;
+    
+}
+button:hover{
+    background-color: #1C0EBB;
+}
+h2{
+font-size: 36px;
+line-height: 43px;
+text-transform: uppercase;
+font-family: 'Gotham Ultra';
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+}
+        
