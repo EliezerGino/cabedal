@@ -1,0 +1,76 @@
+body{
+    display: flex;
+}
+aside{
+    width: 255px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin-top: 28px;
+    text-align: justify;
+    margin-left: 48px;
+    list-style: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+    color: #1E1E1E;
+
+} 
+
+nav ul li:nth-child(1){
+    font-family: Gotham;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #1406B4;
+    letter-spacing: 10.9px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background: #EB444E;
+    outline: none;
+    border: none;
+    color: #fff;
+    text-align: center;
+    margin-left: 53px;
+    margin-bottom:  40px;
+    cursor: pointer;
+}
+
+
+
+.tabelas{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.itens-por-area table{
+    width: 400px;
+    background-color: red;
+}
+
+.itens-por-area tabela tr{
+    line-height: 1.8em;
+    font-size: 26px;
+
+}
+
+.itens-por-categoria{
+    width: 400px;
+    line-height: 1.6em;
+    background-color: blue;
+    height: 132px;
+}
+
