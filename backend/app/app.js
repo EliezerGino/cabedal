@@ -1,5 +1,9 @@
 // Módulos
-
+    const express = require('express')
+    const bodyparser = require("body-parser")
+    const app = express()
+    const path = require("path")
+    const 
 // Configurações
 
 // Rotas

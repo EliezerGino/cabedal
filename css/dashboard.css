@@ -11,6 +11,12 @@ aside{
     flex-direction: column;
     justify-content: space-between;
 }
+menu-lateral{
+    
+}
+nav ul{
+    position: absolute;
+}
 
 nav ul li {
     margin-top: 28px;
@@ -58,19 +64,22 @@ button{
 
 .itens-por-area table{
     width: 400px;
-    background-color: red;
+    background-color: #f9f9f9;
+    padding-left: 20px;
+    border-radius: 5px;
+    height: 300px;
 }
 
 .itens-por-area tabela tr{
-    line-height: 1.8em;
-    font-size: 26px;
 
+    margin-left: 20px;
 }
 
 .itens-por-categoria{
     width: 400px;
-    line-height: 1.6em;
-    background-color: blue;
-    height: 132px;
+    background-color: #f9f9f9;
+    padding-left: 20px;
+    border-radius: 5px;
+    height: 300px;
 }
 
